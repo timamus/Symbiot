@@ -55,7 +55,7 @@ mkdir -p ~/.local/share/applications/
 cat > ~/.local/share/applications/Symbiot.desktop << EOF
 [Desktop Entry]
 Name=Symbiot
-Exec=$HOME/Symbiot/run_symbiot.sh
+Exec=bash -i -c '$HOME/Symbiot/run_symbiot.sh'
 Icon=system-icon-name
 Type=Application
 Terminal=true
