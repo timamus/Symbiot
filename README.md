@@ -32,6 +32,18 @@ This Python script simulates human-like typing behavior to interact with text ed
 - `pip install -r requirements.txt`
 - `deactivate`
 
+- **Linux Users**: Check if `xclip` is installed. This package is crucial for clipboard operations. You can verify its presence by running:
+  
+  ```bash
+  xclip -version
+  ```
+
+  If `xclip` is not installed, install it using your distribution's package manager. For instance, on Ubuntu:
+
+  ```bash
+  sudo apt-get install xclip
+  ```
+
 ## Creating a .desktop File
 To create a `.desktop` file that will be accessible from your Linux distribution’s application menu, execute the following commands in the terminal:
 
