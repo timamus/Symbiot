@@ -12,7 +12,7 @@
 
 ### Permanent Setup
 1. Open your terminal.
-2. Add the export command to your shell's configuration file (`.bashrc` for Bash or `.zshrc` for Zsh):
+2. Add the export command to your shell's configuration file (`.bashrc` for Bash):
    ```
    echo "export OPENAI_API_KEY='your_api_key'" >> ~/.bashrc
    ```
